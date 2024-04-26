@@ -1,0 +1,104 @@
+## Verificando la instalación de Docker
+
+docker version
+
+docker info
+
+## Utilizando Ngnix
+
+docker container run --publish 80:80 nginx
+
+docker container run --publish 80:80 --detach nginx
+
+docker container ls
+
+docker container ls -a
+
+docker container run --publish 80:80 --detach --name webhost nginx
+
+docker container ls -a
+
+docker container logs webhost
+
+docker container top
+
+docker container top webhost
+
+docker container ls
+
+docker container rm -f webhost
+
+docker container ls -a
+
+## Multiples Contenedores
+
+docker container run -d -p 3306:3306 --name db -e MYSQL_RANDOM_ROOT_PASSWORD=yes 
+
+docker container logs db
+
+docker container run -d --name webserver -p 8080:80 httpd
+
+docker container run -d --name proxy -p 80:80 nginx
+
+docker container ls
+
+docker container stop proxy
+
+## Terminal Interactiva en la Consola
+
+docker container run -help
+
+docker container run -it --name proxy nginx bash
+
+docker container ls
+
+docker container ls -a
+
+docker container run -it --name ubuntu ubuntu
+
+## Docker Network
+
+docker network ls
+
+docker network inspect bridge
+
+docker network ls
+
+docker network create app-net
+
+docker network ls
+
+docker network create --help
+
+docker container run -d --name prueba2--network app-net nginx
+
+docker container run -d --name prueba3--network app-net nginx
+
+docker network inspect app-net
+
+docker container exec -it prueba2 ping prueba3
+
+docker container exec -it prueba3 ping prueba2
+
+docker network ls
+
+## Docker Volumes
+
+docker volume ls
+
+docker volume inspect 
+
+
+docker container run -d --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=True -v mysql-db:/var/lib/mysql mysql
+
+docker volume ls
+
+docker volume inspect mysql-db
+
+docker container rm -f mysql
+
+docker container run -d --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=True -v mysql-db:/var/lib/mysql mysql
+
+docker volume ls
+
+docker volume create --help

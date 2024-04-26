@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Contracts\Persistence\IStreamerRepository.cs" />
+    <Compile Remove="Contracts\Persistence\IVideoRepository.cs" />
+    <Compile Remove="Features\Streamers\Commands\CreateStreamer\CreateStreamerCommand.cs" />
+    <Compile Remove="Features\Streamers\Commands\CreateStreamer\CreateStreamerCommandHandler.cs" />
+    <Compile Remove="Features\Streamers\Commands\CreateStreamer\CreateStreamerCommandValidator.cs" />
+    <Compile Remove="Features\Streamers\Commands\DeleteStreamer\DeleteStreamerCommand.cs" />
+    <Compile Remove="Features\Streamers\Commands\DeleteStreamer\DeleteStreamerCommandHandler.cs" />
+    <Compile Remove="Features\Streamers\Commands\UpdateStreamer\UpdateStreamerCommand.cs" />
+    <Compile Remove="Features\Streamers\Commands\UpdateStreamer\UpdateStreamerCommandHandler.cs" />
+    <Compile Remove="Features\Streamers\Commands\UpdateStreamer\UpdateStreamerCommandValidator.cs" />
+    <Compile Remove="Features\Videos\Queries\GetVideosList\GetVideosListQuery.cs" />
+    <Compile Remove="Features\Videos\Queries\GetVideosList\GetVideosListQueryHandler.cs" />
+    <Compile Remove="Features\Videos\Queries\GetVideosList\VideosVm.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitecture.Domain\CleanArchitecture.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Streamers\Commands\CreateStreamer\" />
+    <Folder Include="Features\Streamers\Commands\DeleteStreamer\" />
+    <Folder Include="Features\Streamers\Commands\UpdateStreamer\" />
+    <Folder Include="Features\Streamers\Queries\" />
+    <Folder Include="Features\Videos\Commands\" />
+    <Folder Include="Features\Videos\Queries\GetVideosList\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="FluentValidation" Version="10.3.6" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.6" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>

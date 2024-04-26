@@ -1,0 +1,46 @@
+version: "3"
+
+networks:
+  nur-bnb-net:
+
+volumes:
+  mssql-azuresql-edge-data: {}
+
+services:
+  property-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+      - "8081:443"
+    depends_on:
+      - postgres_db
+    networks:
+      - nur-bnb-net
+
+  postgres_db:
+    container_nane:postgres
+    image: postgres:latest
+    environment:
+     POSTGRES_USER: postgres
+     POSTGRES_PASSWORD:Clave**
+     POSTGRES_DB: db_propiedad
+    ports:
+    -"5432:5432"
+    volumes:
+       - postgres-data:/var/lib/postgresql/data
+
+  sqlserver:
+    image: mcr.microsoft.com/azure-sql-edge:latest
+    cap_add: ["SYS_PTRACE"]
+    environment:
+      - "ACCEPT_EULA=1"
+      - "MSSQL_SA_PASSWORD=SU2orange!"
+    ports:
+      - "1433:1433"
+    hostname: mssql
+    volumes:
+      - "mssql-azuresql-edge-data:/var/opt/mssql"
+    networks:
+      - nur-bnb-net

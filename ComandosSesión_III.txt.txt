@@ -1,0 +1,23 @@
+docker compose up
+
+docker compose build
+
+docker compose up --build
+
+docker swarm init
+
+docker node ls
+
+docker node inspect
+
+docker service create nginx
+
+docker service update [id_service] --replicas 3
+
+docker container ls
+
+docker service ls
+
+docker container stop [container_id]
+
+docker service ls

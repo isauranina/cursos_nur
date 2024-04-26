@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Actor.cs" />
+    <Compile Remove="Director.cs" />
+    <Compile Remove="Streamer.cs" />
+    <Compile Remove="Video.cs" />
+    <Compile Remove="VideoActor.cs" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,30 @@
+D:\Isa\diplomado\modulo 7 -Proyecto final\section-1 sin login\section-1\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net6.0\CleanArchitecture.Application.deps.json
+D:\Isa\diplomado\modulo 7 -Proyecto final\section-1 sin login\section-1\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net6.0\CleanArchitecture.Application.dll
+D:\Isa\diplomado\modulo 7 -Proyecto final\section-1 sin login\section-1\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net6.0\CleanArchitecture.Application.pdb
+D:\Isa\diplomado\modulo 7 -Proyecto final\section-1 sin login\section-1\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net6.0\CleanArchitecture.Domain.dll
+D:\Isa\diplomado\modulo 7 -Proyecto final\section-1 sin login\section-1\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net6.0\CleanArchitecture.Domain.pdb
+D:\Isa\diplomado\modulo 7 -Proyecto final\section-1 sin login\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.csproj.AssemblyReference.cache
+D:\Isa\diplomado\modulo 7 -Proyecto final\section-1 sin login\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Isa\diplomado\modulo 7 -Proyecto final\section-1 sin login\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.AssemblyInfoInputs.cache
+D:\Isa\diplomado\modulo 7 -Proyecto final\section-1 sin login\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.AssemblyInfo.cs
+D:\Isa\diplomado\modulo 7 -Proyecto final\section-1 sin login\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.csproj.CoreCompileInputs.cache
+D:\Isa\diplomado\modulo 7 -Proyecto final\section-1 sin login\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.csproj.CopyComplete
+D:\Isa\diplomado\modulo 7 -Proyecto final\section-1 sin login\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.dll
+D:\Isa\diplomado\modulo 7 -Proyecto final\section-1 sin login\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\refint\CleanArchitecture.Application.dll
+D:\Isa\diplomado\modulo 7 -Proyecto final\section-1 sin login\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.pdb
+D:\Isa\diplomado\modulo 7 -Proyecto final\section-1 sin login\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\ref\CleanArchitecture.Application.dll
+C:\sistemas\proyecto modulo7\section-1\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net6.0\CleanArchitecture.Application.deps.json
+C:\sistemas\proyecto modulo7\section-1\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net6.0\CleanArchitecture.Application.dll
+C:\sistemas\proyecto modulo7\section-1\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net6.0\CleanArchitecture.Application.pdb
+C:\sistemas\proyecto modulo7\section-1\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net6.0\CleanArchitecture.Domain.dll
+C:\sistemas\proyecto modulo7\section-1\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net6.0\CleanArchitecture.Domain.pdb
+C:\sistemas\proyecto modulo7\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.csproj.AssemblyReference.cache
+C:\sistemas\proyecto modulo7\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\sistemas\proyecto modulo7\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.AssemblyInfoInputs.cache
+C:\sistemas\proyecto modulo7\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.AssemblyInfo.cs
+C:\sistemas\proyecto modulo7\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.csproj.CoreCompileInputs.cache
+C:\sistemas\proyecto modulo7\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.csproj.CopyComplete
+C:\sistemas\proyecto modulo7\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.dll
+C:\sistemas\proyecto modulo7\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\refint\CleanArchitecture.Application.dll
+C:\sistemas\proyecto modulo7\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\CleanArchitecture.Application.pdb
+C:\sistemas\proyecto modulo7\section-1\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net6.0\ref\CleanArchitecture.Application.dll

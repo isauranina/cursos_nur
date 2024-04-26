@@ -1,0 +1,63 @@
+## Docker Hub e Imágenes
+
+docker image ls
+
+docker pull node
+
+docker image ls
+
+docker history nginx
+
+docker history mysql
+
+docker image inspect nginx
+
+## Tags en imágenes
+
+docker image tag -- help
+
+docker image ls
+
+docker image tag nginx edwardfc/nginx
+
+docker image ls
+
+docker image push edwardfc/nginx
+
+docker login
+
+docker image push edwardfc/nginx
+
+docker image ls
+
+## Construyendo imágenes con Dockerfile
+
+docker image build -t nginx-html.
+
+docker image ls
+
+docker container run -p 80:80 --rm nginx
+
+docker container run -p 80:80 --rm nginx-html
+
+docker image ls
+
+docker image tag --help
+
+docker image tag nginx-html edwardfc/nginx-html
+
+docker image ls
+
+docker push edwardfc/nginx-html
+
+## Práctica I
+
+docker build -t edwardfc/node .
+
+docker push docker push
+
+docker container run -p 80:3000 edwardfc/node
+
+docker image rm edwardfc/node
+
+docker container run --rm -p 80:3000 edwardfc/node
